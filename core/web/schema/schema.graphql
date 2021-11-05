@@ -14,7 +14,7 @@ type Query {
     features: FeaturesPayload!
     feedsManager(id: ID!): FeedsManagerPayload!
     feedsManagers: FeedsManagersPayload!
-    node(id: ID!): Node!
+    node(id: ID!): NodePayload!
     ocrKeyBundles: OCRKeyBundlesPayload!
 }
 
